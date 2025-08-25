@@ -1,2 +1,11 @@
 # yakuake-skin-generator
-Generates skind based on Breez with correct accent color
+Generates skin based on Breez (by Andreas Kainz) with correct accent color.
+
+All this script does is replace the accent color in the original Breez skin with the one found in the global KDE settings.
+
+It then copies the new skin to .local and restarts Yakuake to apply the new skin.
+
+You can switch between light and dark mode by changing the first parameter in the script.
+
+## Background
+I was always annoyed that Yakuake doesn't follow the global accent color set in KDE System Settings.
